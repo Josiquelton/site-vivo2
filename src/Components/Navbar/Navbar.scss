@@ -1,0 +1,117 @@
+// superior
+nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: #9932CC;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    nav ul {
+        list-style: none;
+        justify-content: space-around;
+        display: flex;
+        
+    }
+   
+     .textOne{
+        color: black;
+        background-color: #FFFFFF;
+        border: 1px solid #9932CC;
+        border-radius: 5px;
+    
+    }
+
+     .textDue{
+        color: black;
+        background-color: #FFFFFF;
+        border: 1px solid #9932CC;
+        border-radius: 5px;
+     }
+
+     .textThree{
+        color: black;
+        background-color: #FFFFFF;
+        border: 1px solid #9932CC;
+        border-radius: 5px;
+     }
+
+     .textFour{
+        color: black;
+        background-color: #FFFFFF;
+        border: 1px solid #9932CC;
+        border-radius: 5px;
+     }
+    
+    nav button a{
+        text-decoration: none;
+        
+    }
+   
+    nav button a:hover{
+        color:#9932CC;
+        
+        
+    }
+    
+    nav img{
+        width: 150%;
+    }
+       nav h1{
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 30px;
+            font-family: Arial;
+            transition: transform 1s;
+           
+            
+        }
+
+        nav h1{
+            transform: scaleY(0.5) scaleX(0.8) rotateZ(10deg);
+        }
+       
+// formulario
+    .form{
+        margin-left: 200px;
+    }
+
+        .form label{
+            color: #FFFFFF;
+            font-family: Arial;
+            font-size: 20px;
+        }
+
+
+        .form input{
+            width: 250px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        
+
+        form textarea{
+            width: 250px;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .form button{
+            width: 200px;
+            height: 45px;
+            color: #9932CC;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+
+
+        .form button:hover{
+            color: #303030;
+            background-color: LightGray;
+            box-shadow: 10px 10px #FFFFFF;
+            
+        }
+        
